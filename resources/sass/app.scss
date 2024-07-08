@@ -1,7 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
 
-$primary: #333333;
+// $primary: #333333;
+$primary: #0f0;
 
 body {
     color: $primary;
+}
+
+a {
+    text-decoration: none !important;
 }

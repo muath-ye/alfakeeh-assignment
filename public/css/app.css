@@ -11966,5 +11966,9 @@ textarea.form-control-lg {
   }
 }
 body {
-  color: #333333;
+  color: #0f0;
+}
+
+a {
+  text-decoration: none !important;
 }
