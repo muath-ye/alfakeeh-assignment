@@ -19,6 +19,13 @@ class User extends Authenticatable
     use TwoFactorAuthenticatable;
 
     /**
+     * The role set of the users.
+     *
+     * @var array|null
+     */
+    const ROLES = ['root', 'admin', 'user'];
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array<int, string>
@@ -27,6 +34,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
@@ -61,5 +69,15 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    /**
+     * Check if current user has specified role on the roles set.
+     * @param string $role
+     * @return bool
+     */
+    public function hasRole(string $role) : bool
+    {
+        return $role == $this->role;
     }
 }
