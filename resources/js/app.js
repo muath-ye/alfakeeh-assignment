@@ -1,1 +1,2 @@
-import './bootstrap';
+require('./bootstrap');
+alert('Hello World');
