@@ -50,6 +50,6 @@ user@example.com
 
 The password of each user is `password`
 
-> Note: If you register a new user, The user will not be able to login because of role restrictions
+> Note: If you register a new user, The user default role for the user is 'user'
 
 > Note: you can enable `2FA` from the profile of the user
