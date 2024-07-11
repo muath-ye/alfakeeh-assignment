@@ -10,7 +10,7 @@
         "production": "mix --production"
     },
     "devDependencies": {
-        "@alpinejs/focus": "^3.10.5",
+        "@alpinejs/focus": "^3.14.1",
         "alpinejs": "^3.14.1",
         "autoprefixer": "^10.4.16",
         "axios": "^1.7.2",
