@@ -40,7 +40,7 @@ Finally serve the project
 php artisan serve
 ```
 
-You can access the project on the `http://127.0.0.1:8000` url and you can log in with one of following users
+You can access the project on the [[http://127.0.0.1:8000](http://127.0.0.1:8000)] url and you can log in with one of following users
 
 ```
 root@example.com
