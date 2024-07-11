@@ -1,12 +1,11 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-// $primary: #333333;
-$primary: #0f0;
-
-body {
-    color: $primary;
-}
-
-a {
-    text-decoration: none !important;
-}
+// Custom
+@import "custom";

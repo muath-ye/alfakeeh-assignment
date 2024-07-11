@@ -13,7 +13,12 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}" type="text/css">
+    <style>
+        body {
+            font-family: 'Nunito';
+            background: #f7fafc;
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid fixed-top p-4">
@@ -146,6 +151,5 @@
             </div>
         </div>
     </div>
-    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
